@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Infoma.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Infoma.Controllers
 {
@@ -12,15 +13,27 @@ namespace Infoma.Controllers
         _logger = logger;
 
     }
+
+        public IActionResult SignUp()
+        {
+            return View();
+        }
     
         public IActionResult LogIn()
         {
             return View();
         }
 
-        public IActionResult SignUp()
+        [HttpGet]
+        public IActionResult Type()
         {
             return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Type([FromForm] User person)
+        {
+            return RedirectToAction ("SignUp", "LogIn");
         }
     }
 }

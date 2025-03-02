@@ -28,31 +28,31 @@ body {
   padding: 40px 25px;
 }
 .form {
-    width: 300px;
-    height: 500px;
-    background-color: #fd7e14;
-    position: absolute;
-      top: 20%;
-    margin-left: 500px;
-    border-radius: 10px;
-    padding: 40px 25px;
+  width: 300px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.15);
+  position: absolute;
+  top: 20%;
+  margin-left: 500px;
+  border-radius: 10px;
+  padding: 40px 25px;
 }
 .login-form h1 {
   width: 220px;
   text-align: center;
   padding-left: 11px;
   margin-bottom: 20px;
-  font-size: 35px;
+  font-size: 25px;
   color: #00f0ff;
 }
 
 .form h1 {
-    width: 220px;
-    text-align: center;
-    padding-left: 11px;
-    margin-bottom: 20px;
-    font-size: 35px;
-    color: white;
+  width: 220px;
+  text-align: center;
+  padding-left: 11px;
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: #fd7e14;
 }
 
 .login-form input {
@@ -98,22 +98,46 @@ body {
   font-family: Arial;
 }
 
-.btnn {
-    font-size: 25px;
-    padding: 10px 15px;
-    background: transparent;
-    border: none;
-    margin-top: 10px;
-    margin-left: 80px;
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+.btn {
+  width: 250px;
+  height: 50px;
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
 }
 
-    .btnn:hover {
-        color: #495057;
-    }
+.btn-1 {
+  width: 90px;
+  height: 45px;
+  background-color: #fd7e14;
+  font-size: 15px;
+  padding: 10px 15px;
+  border: none;
+  margin-top: 10px;
+  margin-left: 80px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /*  margin: 4px 2px;*/
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.btnn-1:hover {
+  color: #495057;
+}
 .login-form .link {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
@@ -127,10 +151,10 @@ body {
   text-align: center;
 }
 .login-form .link a {
-    text-decoration: none;
-    color: #fd7e14;
+  text-decoration: none;
+  color: #fd7e14;
 }
 .form .link a {
-    text-decoration: none;
-    color: #fd7e14;
+  text-decoration: none;
+  color: #fd7e14;
 }
